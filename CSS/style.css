@@ -1,0 +1,78 @@
+.login{
+  font-family: sans-serif;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  display: grid;
+}
+
+.login-text{
+  text-align: left;
+  font-size: large;
+}
+
+.uspa{
+  width: 300px;
+  padding: 20px 10px 20px 30px;
+  background-color: rgba(99, 99, 99, 0.021);
+  border-radius: 3%;
+  box-shadow: 2px 2px 2px #99999918;
+}
+
+.login-button{
+  width: 92%;
+  background-color: rgb(17, 173, 17);
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  height: 38px;
+  border-radius: 5%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box{
+  height: 30px;
+  border: 1px solid rgba(74, 54, 54, 0.482);
+  border-radius: 2px;
+  width: 90%;  
+}
+
+.text{
+  text-align: center;
+}
+ 
+.reserv-htext{
+  font-weight: bolder;
+  background-color: rgba(121, 121, 121, 0.119);
+}
+
+.reserv{
+  background-color: rgba(121, 121, 121, 0.119);
+}
+
+.table{
+  border-width: 2px;
+  border-collapse: collapse;
+  position: relative;         
+  margin: auto;
+  border-color: rgba(121, 121, 121, 0.119);
+}
+
+.room{
+  padding-right: 50px;
+}
+.date{
+  padding-right: 120px;
+}
+.start{
+  padding-right: 30px;
+}
+.end{
+  padding-right: 30px;
+}
+.pur{
+  padding-right: 270px;
+}

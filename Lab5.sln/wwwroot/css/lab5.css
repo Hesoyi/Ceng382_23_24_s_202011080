@@ -1,0 +1,20 @@
+.sum{
+    margin-top: 20px;
+    background-color: rgba(173, 246, 222, 0.503);
+    border: 1px solid rgb(173, 246, 222);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.lab5{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.input{
+    text-align: center;
+    height: 50px;
+    width: 380px;
+}
+.li{
+    list-style-type:none;
+}

@@ -1,0 +1,15 @@
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\bin\Debug\net8.0\Ceng382_23_24_s_202011080.exe
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\bin\Debug\net8.0\Ceng382_23_24_s_202011080.deps.json
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\bin\Debug\net8.0\Ceng382_23_24_s_202011080.runtimeconfig.json
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\bin\Debug\net8.0\Ceng382_23_24_s_202011080.dll
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\bin\Debug\net8.0\Ceng382_23_24_s_202011080.pdb
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.AssemblyInfoInputs.cache
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.AssemblyInfo.cs
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.csproj.CoreCompileInputs.cache
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.sourcelink.json
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.dll
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\refint\Ceng382_23_24_s_202011080.dll
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.pdb
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\Ceng382_23_24_s_202011080.genruntimeconfig.cache
+c:\Users\Misafir\Desktop\lab6\Ceng382_23_24_s_202011080\obj\Debug\net8.0\ref\Ceng382_23_24_s_202011080.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Misafir\\Desktop\\lab6\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj": {}
+    "C:\\Users\\Misafir\\Desktop\\lab7\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Misafir\\Desktop\\lab6\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj": {
+    "C:\\Users\\Misafir\\Desktop\\lab7\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Misafir\\Desktop\\lab6\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj",
+        "projectUniqueName": "C:\\Users\\Misafir\\Desktop\\lab7\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj",
         "projectName": "Ceng382_23_24_s_202011080",
-        "projectPath": "c:\\Users\\Misafir\\Desktop\\lab6\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj",
+        "projectPath": "C:\\Users\\Misafir\\Desktop\\lab7\\Ceng382_23_24_s_202011080\\Ceng382_23_24_s_202011080.csproj",
         "packagesPath": "C:\\Users\\Misafir\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Misafir\\Desktop\\lab6\\Ceng382_23_24_s_202011080\\obj\\",
+        "outputPath": "C:\\Users\\Misafir\\Desktop\\lab7\\Ceng382_23_24_s_202011080\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Misafir\\AppData\\Roaming\\NuGet\\NuGet.Config"

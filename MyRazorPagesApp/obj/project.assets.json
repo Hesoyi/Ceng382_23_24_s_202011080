@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Misafir\\Desktop\\lab 9\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
+      "projectUniqueName": "C:\\Users\\Misafir\\Desktop\\lab10\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
       "projectName": "MyRazorPagesApp",
-      "projectPath": "C:\\Users\\Misafir\\Desktop\\lab 9\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
+      "projectPath": "C:\\Users\\Misafir\\Desktop\\lab10\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
       "packagesPath": "C:\\Users\\Misafir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Misafir\\Desktop\\lab 9\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\obj\\",
+      "outputPath": "C:\\Users\\Misafir\\Desktop\\lab10\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Misafir\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4188,7 +4188,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

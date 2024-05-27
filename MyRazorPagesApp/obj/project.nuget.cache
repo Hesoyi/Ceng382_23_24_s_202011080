@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lmfjH4iGfa1j9GF8GOMtN4hdKELasvYzTy3tFYdLeCL6pjKY/Tr3zKgiPA30Gt7OZEvVM+RleC3hqGjJXAJiHg==",
+  "dgSpecHash": "IuLiJe6AygkV4G2b8gHNuiv+U32enW7q5z2v4eo/vEeEepVekM0rfz+OFdTO+0+VjZ6d1h0KGC5T/XYQ38qBHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Misafir\\Desktop\\lab 9\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
+  "projectFilePath": "C:\\Users\\Misafir\\Desktop\\lab10\\Ceng382_23_24_s_202011080\\MyRazorPagesApp\\MyRazorPagesApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Misafir\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Misafir\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

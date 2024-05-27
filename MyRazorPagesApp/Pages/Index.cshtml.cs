@@ -1,19 +1,24 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using MyRazorPagesApp.Data;
+using MyRazorPagesApp.Model;
 
-namespace MyRazorPagesApp.Pages;
-
-public class IndexModel : PageModel
+namespace MyRazorPagesApp.Pages
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    public class IndexModel : PageModel
     {
-        _logger = logger;
-    }
+        private readonly AppDbContext _context;
 
-    public void OnGet()
-    {
+        public IndexModel(AppDbContext context)
+        {
+            _context = context;
+        }
 
+        public IList<Room> Rooms { get; set; }
+
+        public async Task OnGetAsync()
+        {
+            Rooms = await _context.Rooms.ToListAsync();
+        }
     }
 }

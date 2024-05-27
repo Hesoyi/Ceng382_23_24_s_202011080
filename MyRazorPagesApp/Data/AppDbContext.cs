@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyRazorPagesApp.Model;
+
 namespace MyRazorPagesApp.Data{
 public class AppDbContext : DbContext
 {

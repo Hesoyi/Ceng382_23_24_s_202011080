@@ -1,0 +1,24 @@
+@page
+@model MyRazorPagesApp.Pages.Rooms.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Rooms</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Capacity</th>
+        </tr>   
+    </thead>
+    <tbody>
+        @foreach (var room in Model.Rooms)
+        {
+            <tr>
+                <td>@room.RoomName</td>
+                <td>@room.Capacity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+        

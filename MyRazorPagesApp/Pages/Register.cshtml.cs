@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace MyRazorPagesApp.Pages
 {
-    public class IndexModel : PageModel
+    public class RegisterModel : PageModel
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public IndexModel(SignInManager<IdentityUser> signInManager)
+        public RegisterModel(UserManager<IdentityUser> userManager)
         {
-            _signInManager = signInManager;
+            _userManager = userManager;
         }
 
         [BindProperty]
@@ -29,24 +29,32 @@ namespace MyRazorPagesApp.Pages
             [Required]
             [DataType(DataType.Password)]
             public string Password { get; set; }
+
+            [DataType(DataType.Password)]
+            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            public string ConfirmPassword { get; set; }
         }
 
         public void OnGet(string returnUrl = null)
         {
-            ReturnUrl = returnUrl ?? Url.Content("~/");
+            ReturnUrl = returnUrl;
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl = Url.Content("~/Create"); // Login başarılı olursa yönlendirme URL'si
+            returnUrl = returnUrl ?? Url.Content("~/");
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, false, lockoutOnFailure: false);
+                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
-                    return LocalRedirect(returnUrl);
+                    return LocalRedirect("/Index");
                 }
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
             }
 
             return Page();

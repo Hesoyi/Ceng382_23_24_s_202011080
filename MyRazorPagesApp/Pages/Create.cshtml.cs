@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyRazorPagesApp.Data;
 using MyRazorPagesApp.Model;
+using System.Threading.Tasks;
 
 namespace MyRazorPagesApp.Pages
 {
@@ -30,7 +31,7 @@ namespace MyRazorPagesApp.Pages
 
             _context.Rooms.Add(Room);
             await _context.SaveChangesAsync();
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Rooms/Index"); // Oda oluşturulduktan sonra Rooms/Index sayfasına yönlendirme
         }
     }
 }
